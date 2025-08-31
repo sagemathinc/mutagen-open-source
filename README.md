@@ -1,5 +1,9 @@
 # Mutagen
 
+**MOTIVATION:** This fork of Mutagen contains only MIT-licensed and non-copyleft-licensed code unlike https://github.com/mutagen-io/mutagen  In particular, the binary releases are fully open source and also only include the minimal very popular targets.
+
+# Original Readme below
+
 Mutagen is a new kind of remote development tool that enables your existing
 local tools to work with code in remote environments like cloud servers and
 containers. It does this by providing high-performance real-time
