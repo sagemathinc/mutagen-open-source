@@ -2,6 +2,17 @@
 
 **MOTIVATION:** This fork of Mutagen contains only MIT-licensed and non-copyleft-licensed code unlike https://github.com/mutagen-io/mutagen  In particular, the binary releases are fully open source and also only include the minimal very popular targets.
 
+## Release Binaries
+
+This is a fully open source release of the latest dev version of Mutagen.  I've included binaries for Mac, Windows and Linux (both arm and x86).   I built these on mac using this command after being sure to delete the non-open source code, and after modifying the definition of release-slim:
+
+```sh
+go run scripts/build.go -m release-slim
+```
+
+**These are much, much smaller than the upstream releases.**
+
+
 # Original Readme below
 
 Mutagen is a new kind of remote development tool that enables your existing
