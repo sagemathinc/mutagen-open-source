@@ -1,6 +1,8 @@
 # Mutagen
 
-**MOTIVATION:** This fork of Mutagen contains only MIT-licensed and non-copyleft-licensed code unlike https://github.com/mutagen-io/mutagen  In particular, the binary releases are fully open source and also only include the minimal very popular targets.
+**MOTIVATION:** This fork of Mutagen contains only MIT-licensed and non-copyleft-licensed code unlike https://github.com/mutagen-io/mutagen In particular, the binary releases are fully open source and also only include the minimal very popular targets.
+
+**UPDATE (October 2025):** I have given up on Mutagen and decided to instead do a new open source implementation from scratch of the Mutagen sync algorithm, but building on rsync, sqlite and nodejs, for better speed, maturity and flexibility. See https://github.com/sagemathinc/ccsync
 
 # Original Readme below
 
@@ -14,7 +16,6 @@ It supports synchronization and forwarding between
 [SSH-accessible locations](https://mutagen.io/documentation/transports/ssh),
 and [Docker containers](https://mutagen.io/documentation/transports/docker).
 
-
 ## Getting started
 
 The best way to understand Mutagen and its features is to read the
@@ -23,13 +24,11 @@ The best way to understand Mutagen and its features is to read the
 guides. You can find information about all of Mutagen's features in the
 [documentation](https://mutagen.io/documentation).
 
-
 ## Installation
 
 You can find
 [installation instructions](https://mutagen.io/documentation/introduction/installation)
 in the [Mutagen documentation](https://mutagen.io/documentation).
-
 
 ## Community
 
@@ -39,13 +38,12 @@ to go for discussion, questions, and ideas.
 For updates about the project and its releases, you can
 [follow Mutagen on Twitter](https://twitter.com/mutagen_io).
 
-
 ## Status
 
 Mutagen is built and tested on Windows, macOS, and Linux, and it's available for
 [many more platforms](https://github.com/mutagen-io/mutagen/releases/latest).
 
-| Tests                               | Report card                         |
+|                Tests                |             Report card             |
 | :---------------------------------: | :---------------------------------: |
 | [![Tests][tests-badge]][tests-link] | [![Report card][rc-badge]][rc-link] |
 
@@ -54,17 +52,14 @@ Mutagen is built and tested on Windows, macOS, and Linux, and it's available for
 [rc-badge]: https://goreportcard.com/badge/github.com/mutagen-io/mutagen "Report card status"
 [rc-link]: https://goreportcard.com/report/github.com/mutagen-io/mutagen "Report card status"
 
-
 ## License
 
 For license information, please see the [LICENSE](LICENSE) file.
-
 
 ## Contributing
 
 If you'd like to contribute to Mutagen, please see the
 [contribution documentation](CONTRIBUTING.md).
-
 
 ## Security
 
@@ -73,7 +68,6 @@ issue with Mutagen, please practice responsible disclosure practices and send an
 email directly to [security@docker.com](mailto:security@docker.com) instead of
 opening a GitHub issue. For more information, please see the
 [security documentation](SECURITY.md).
-
 
 ## Versioning and support
 
@@ -92,11 +86,9 @@ cannot be backported or upgrading Go minor versions for a release series to
 incorporate important security fixes. Features marked as experimental may also
 see breakage when necessary, though we will endeavor to keep this to a minimum.
 
-
 ## Building
 
 Please see the [build instructions](BUILDING.md).
-
 
 ## External projects
 
@@ -118,7 +110,6 @@ their workflows:
 - [**mutagenmon**](https://github.com/andrewmed/mutagenmon) is an alternative
   (Go-based) native GUI for Mac, for monitoring Mutagen sessions, provides apple
   notarized builds.
-
 
 ## Unrelated projects
 
