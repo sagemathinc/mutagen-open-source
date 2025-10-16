@@ -4,6 +4,17 @@
 
 **UPDATE (October 2025):** I have given up on Mutagen and decided to instead do a new open source implementation from scratch of the Mutagen sync algorithm, but building on rsync, sqlite and nodejs, for better speed, maturity and flexibility. See https://github.com/sagemathinc/ccsync
 
+## Release Binaries
+
+This is a fully open source release of the latest dev version of Mutagen.  I've included binaries for Mac, Windows and Linux (both arm and x86).   I built these on mac using this command after being sure to delete the non-open source code, and after modifying the definition of release-slim:
+
+```sh
+go run scripts/build.go -m release-slim
+```
+
+**These are much, much smaller than the upstream releases.**
+
+
 # Original Readme below
 
 Mutagen is a new kind of remote development tool that enables your existing
