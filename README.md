@@ -2,7 +2,7 @@
 
 **MOTIVATION:** This fork of Mutagen contains only MIT-licensed and non-copyleft-licensed code unlike https://github.com/mutagen-io/mutagen In particular, the binary releases are fully open source and also only include the minimal very popular targets.
 
-**UPDATE (October 2025):** I have given up on Mutagen and decided to instead do a new open source implementation from scratch of the Mutagen sync algorithm, but building on rsync, sqlite and nodejs, for better speed, maturity and flexibility. See https://github.com/sagemathinc/ccsync
+**UPDATE (October 2025):** I have given up on Mutagen and decided to instead do a new open source implementation from scratch of the Mutagen sync algorithm, but building on rsync, sqlite and nodejs, for better speed, maturity and flexibility. See https://github.com/sagemathinc/reflect-sync.  **This is almost done and is working extremely well!**
 
 ## Release Binaries
 
